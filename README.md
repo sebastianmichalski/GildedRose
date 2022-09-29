@@ -1,3 +1,12 @@
+# Famous GildedRose programming task
+
+### Solution:
+* strategy pattern
+* TDD with Junit 5 parametrized test
+
+### prerequisites:
+* Java 11 installed, environment variables are set up: https://www.oracle.com/java/technologies/downloads/#java11
+
 # Instructions
 
 Consider this an exercise in refactoring a legacy system to make your
@@ -61,4 +70,8 @@ of the inventory after each call to the function.
 - Run a single test (in this case `foo`)
 
 ## Gradle
-TODO
+### Build: `./gradlew build`
+- Install the dependencies and build the project.
+
+### Run all tests: `./gradlew test`
+- Runs all the tests
